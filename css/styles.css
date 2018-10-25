@@ -1,0 +1,213 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*---------variables GOES HERE-----------*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/*  apply a natural box layout model to all elements  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*---------BODY GOES HERE-----------*/
+body {
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif; }
+  body h1 {
+    color: white;
+    font-size: 2rem; }
+  body h2 {
+    color: white;
+    font-size: 1.2rem; }
+
+/*---------HEADER GOES HERE-----------*/
+header {
+  max-width: 60rem;
+  margin: 0 auto;
+  height: 110px;
+  background-color: #402A00;
+  padding: 2.5rem 2%;
+  background-image: url(../images/header0560.jpg);
+  background-repeat: no-repeat; }
+  header div#company {
+    max-width: 960px; }
+
+/*---------NAV GOES HERE-----------*/
+nav {
+  width: 100%;
+  background-color: #402A00;
+  margin-top: 0.50%;
+  height: auto;
+  margin: 0 auto; }
+  nav ul li {
+    float: left;
+    width: 25%;
+    border-right: 1px solid white; }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 0;
+    transition: background 0.80s ease; }
+  nav ul li a:hover {
+    background-color: white;
+    color: #402A00; }
+  nav ul li.active a {
+    background-color: #0d0900;
+    color: #e6e6e6; }
+
+/*---------MAIN GOES HERE-----------*/
+main {
+  max-width: 60rem;
+  margin: auto;
+  min-height: 20rem; }
+  main h1 {
+    font-size: 2rem;
+    margin: 1.5rem 0 0.5rem 2%;
+    color: #402A00; }
+  main article {
+    width: 100%;
+    padding: 0 2%; }
+    main article h2 {
+      color: #402A00;
+      margin: 1rem 0; }
+    main article p {
+      margin-bottom: 1rem; }
+
+/*  ------------- FOOTER -------------  */
+footer {
+  width: 100%;
+  background-color: #402A00; }
+  footer p {
+    text-align: center;
+    color: white;
+    padding: 1.5rem 0; }
+
+/*---------CLEARFIX GOES HERE-----------*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (min-width: 560px) {
+  /*---------HEADER GOES HERE-----------*/
+  header {
+    background-image: url(../images/header1024.jpg);
+    background-repeat: no-repeat;
+    height: 130px; }
+
+  /*---------NAV GOES HERE-----------*/
+  nav ul li {
+    width: 10%; }
+  nav ul li:last-child {
+    border-right: none; }
+
+  /*---------MAIN GOES HERE-----------*/
+  main article {
+    width: 50%;
+    float: left; } }
+@media only screen and (min-width: 1024px) {
+  /*--------- HEADER -----------*/
+  header {
+    background-image: url(../images/header1600.jpg);
+    background-repeat: no-repeat; }
+
+  /*---------NAV GOES HERE-----------*/
+  nav ul {
+    margin: 0 auto;
+    width: 60rem; }
+
+  /*---------MAIN GOES HERE-----------*/
+  main article {
+    width: 33.3%;
+    float: left; } }

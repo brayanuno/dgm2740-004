@@ -1,0 +1,23 @@
+/*---------HEADER GOES HERE-----------*/
+header{  
+    background-image: url(../images/header1024.jpg);
+    background-repeat: no-repeat;
+    height: 130px;
+}
+/*---------NAV GOES HERE-----------*/
+nav {
+    ul li {
+        width: 10%;
+    }
+    ul li:last-child {
+        border-right:none;
+    }
+}
+
+/*---------MAIN GOES HERE-----------*/
+main {
+     article {
+        width: 50%;
+        float: left;
+    }     
+}
